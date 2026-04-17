@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- Barbell icon -->
+  <rect x="10" y="28" width="12" height="24" rx="2" fill="#f97316"/>
+  <rect x="24" y="24" width="8" height="32" rx="2" fill="#f97316"/>
+  <rect x="34" y="34" width="32" height="12" rx="2" fill="#f97316"/>
+  <rect x="68" y="24" width="8" height="32" rx="2" fill="#f97316"/>
+  <rect x="78" y="28" width="12" height="24" rx="2" fill="#f97316"/>
+
+  <!-- FORZA text -->
+  <text x="104" y="46" font-family="'Arial Black', 'Helvetica', sans-serif" font-weight="900" font-size="36" fill="#0f172a" letter-spacing="-1">FORZA</text>
+
+  <!-- GYM text -->
+  <text x="104" y="68" font-family="'Arial', 'Helvetica', sans-serif" font-weight="600" font-size="16" fill="#f97316" letter-spacing="6">GYM</text>
+</svg>

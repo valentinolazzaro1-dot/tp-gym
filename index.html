@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Forza Gym — Tu gimnasio en Buenos Aires. Musculación, funcional, boxeo y más. Primera clase gratis.">
+  <title>Forza Gym — Tu gimnasio en Buenos Aires</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="inicio">
+    <div class="container header-inner">
+      <a href="#inicio" class="logo">
+        <span class="logo-icon">F</span>
+        Forza Gym
+      </a>
+      <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#actividades">Actividades</a>
+        <a href="#horarios">Horarios</a>
+        <a href="#planes">Planes</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="btn btn-primary">Contacto</a>
+      </nav>
+      <label class="menu-toggle" for="menu-check" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+    <input type="checkbox" id="menu-check" class="menu-check" aria-hidden="true">
+    <nav class="nav-mobile">
+      <a href="#inicio">Inicio</a>
+      <a href="#actividades">Actividades</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#planes">Planes</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <span class="badge">Primera clase gratis</span>
+      <h1>Tu mejor versión empieza hoy</h1>
+      <p class="hero-desc">
+        Musculación, funcional, boxeo y más. Equipamiento de primer nivel,
+        entrenadores certificados y un ambiente que te motiva a dar todo.
+      </p>
+      <div class="hero-actions">
+        <a href="#contacto" class="btn btn-accent btn-lg">Probá una clase gratis →</a>
+        <a href="#planes" class="btn btn-ghost btn-lg">Ver planes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat">
+        <span class="stat-num">+800</span>
+        <span class="stat-label">Socios activos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">1.200 m²</span>
+        <span class="stat-label">De superficie</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">6</span>
+        <span class="stat-label">Disciplinas</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">5:30–23</span>
+        <span class="stat-label">Horario corrido</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACTIVIDADES ========== -->
+  <section class="section" id="actividades">
+    <div class="container">
+      <span class="section-label">Actividades</span>
+      <h2 class="section-title">Encontrá tu disciplina</h2>
+      <p class="section-desc">Seis actividades con profesores dedicados en cada turno.</p>
+
+      <div class="activities-grid">
+        <div class="activity-card">
+          <span class="activity-emoji">🏋️</span>
+          <h3>Musculación</h3>
+          <p>Sala completa con equipamiento de última generación. Asistencia personalizada incluida.</p>
+          <span class="activity-tag">Libre · todo el día</span>
+        </div>
+        <div class="activity-card">
+          <span class="activity-emoji">⚡</span>
+          <h3>Funcional</h3>
+          <p>Circuitos de alta intensidad en grupos reducidos. Ideal para quemar grasa y ganar resistencia.</p>
+          <span class="activity-tag">Clases · 45 min</span>
+        </div>
+        <div class="activity-card">
+          <span class="activity-emoji">🥊</span>
+          <h3>Boxeo</h3>
+          <p>Técnica, bolsa y sparring. Todos los niveles bienvenidos, desde principiantes hasta avanzados.</p>
+          <span class="activity-tag">Clases · 60 min</span>
+        </div>
+        <div class="activity-card">
+          <span class="activity-emoji">🧘</span>
+          <h3>Yoga</h3>
+          <p>Hatha y Vinyasa para mejorar flexibilidad, postura y concentración.</p>
+          <span class="activity-tag">Clases · 60 min</span>
+        </div>
+        <div class="activity-card">
+          <span class="activity-emoji">🚴</span>
+          <h3>Spinning</h3>
+          <p>Sala climatizada con 20 bicicletas. Sesiones con música y monitoreo de frecuencia cardíaca.</p>
+          <span class="activity-tag">Clases · 45 min</span>
+        </div>
+        <div class="activity-card">
+          <span class="activity-emoji">🤸</span>
+          <h3>Calistenia</h3>
+          <p>Entrenamiento con peso corporal: dominadas, muscle-ups, planchas y progresiones.</p>
+          <span class="activity-tag">Clases · 60 min</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== HORARIOS ========== -->
+  <section class="section section-alt" id="horarios">
+    <div class="container">
+      <span class="section-label">Horarios</span>
+      <h2 class="section-title">Grilla semanal de clases</h2>
+      <p class="section-desc">La sala de musculación está abierta en horario corrido de 5:30 a 23:00.</p>
+
+      <div class="schedule-wrapper">
+        <table class="schedule">
+          <thead>
+            <tr>
+              <th>Hora</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+              <th>Sábado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="schedule-time">7:00</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-spinning">Spinning</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-spinning">Spinning</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-yoga">Yoga</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">8:30</td>
+              <td class="s-yoga">Yoga</td>
+              <td class="s-boxeo">Boxeo</td>
+              <td class="s-yoga">Yoga</td>
+              <td class="s-boxeo">Boxeo</td>
+              <td class="s-yoga">Yoga</td>
+              <td class="s-funcional">Funcional</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">10:00</td>
+              <td class="s-calistenia">Calistenia</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-calistenia">Calistenia</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-calistenia">Calistenia</td>
+              <td class="s-boxeo">Boxeo</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">17:00</td>
+              <td class="s-spinning">Spinning</td>
+              <td class="s-calistenia">Calistenia</td>
+              <td class="s-spinning">Spinning</td>
+              <td class="s-calistenia">Calistenia</td>
+              <td class="s-spinning">Spinning</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">18:30</td>
+              <td class="s-boxeo">Boxeo</td>
+              <td class="s-yoga">Yoga</td>
+              <td class="s-boxeo">Boxeo</td>
+              <td class="s-yoga">Yoga</td>
+              <td class="s-boxeo">Boxeo</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td class="schedule-time">20:00</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-spinning">Spinning</td>
+              <td class="s-funcional">Funcional</td>
+              <td class="s-spinning">Spinning</td>
+              <td class="s-funcional">Funcional</td>
+              <td>—</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="schedule-legend">
+        <span class="legend-item"><span class="legend-dot s-funcional-dot"></span> Funcional</span>
+        <span class="legend-item"><span class="legend-dot s-boxeo-dot"></span> Boxeo</span>
+        <span class="legend-item"><span class="legend-dot s-yoga-dot"></span> Yoga</span>
+        <span class="legend-item"><span class="legend-dot s-spinning-dot"></span> Spinning</span>
+        <span class="legend-item"><span class="legend-dot s-calistenia-dot"></span> Calistenia</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PLANES ========== -->
+  <section class="section" id="planes">
+    <div class="container">
+      <span class="section-label">Planes</span>
+      <h2 class="section-title">Elegí el plan que más te sirva</h2>
+      <p class="section-desc">Todos incluyen acceso a vestuarios, lockers y duchas con agua caliente.</p>
+
+      <div class="pricing-grid">
+        <div class="plan">
+          <h3 class="plan-name">Musculación</h3>
+          <div class="plan-price">$38.000 <span>/ mes</span></div>
+          <p class="plan-desc">Acceso libre a la sala de pesas.</p>
+          <ul class="plan-features">
+            <li>Sala de musculación</li>
+            <li>Horario corrido 5:30–23:00</li>
+            <li>Rutina personalizada inicial</li>
+            <li>Vestuario y duchas</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline plan-cta">Inscribirme</a>
+        </div>
+
+        <div class="plan plan-featured">
+          <h3 class="plan-name">Full</h3>
+          <div class="plan-price">$45.000 <span>/ mes</span></div>
+          <p class="plan-desc">Musculación + todas las clases.</p>
+          <ul class="plan-features">
+            <li>Sala de musculación</li>
+            <li>Todas las clases grupales</li>
+            <li>Funcional, boxeo, yoga, spinning</li>
+            <li>Calistenia incluida</li>
+            <li>Rutina personalizada</li>
+            <li>1 clase de prueba para un amigo</li>
+          </ul>
+          <a href="#contacto" class="btn btn-accent plan-cta">Inscribirme</a>
+        </div>
+
+        <div class="plan">
+          <h3 class="plan-name">Clases</h3>
+          <div class="plan-price">$30.000 <span>/ mes</span></div>
+          <p class="plan-desc">Solo actividades grupales.</p>
+          <ul class="plan-features">
+            <li>Todas las clases grupales</li>
+            <li>Funcional, boxeo, yoga, spinning</li>
+            <li>Calistenia</li>
+            <li>Vestuario y duchas</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline plan-cta">Inscribirme</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section class="section section-alt" id="nosotros">
+    <div class="container">
+      <span class="section-label">Nosotros</span>
+      <h2 class="section-title">Más que un gimnasio</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Forza Gym abrió en 2019 en el corazón de Buenos Aires con una idea
+            simple: armar un espacio donde entrenar bien no fuera un lujo. Hoy
+            somos más de 800 socios y seguimos creciendo.
+          </p>
+          <p>
+            Contamos con 1.200 m² distribuidos en sala de musculación, sala de
+            clases grupales, sala de boxeo con ring, y un espacio de calistenia
+            al aire libre. Todo el equipamiento se renueva cada dos años.
+          </p>
+          <p>
+            Nuestro equipo está formado por 12 profesores certificados, cada uno
+            especializado en su disciplina. Creemos que un buen entrenador hace
+            la diferencia entre un hobby y un cambio de vida.
+          </p>
+        </div>
+
+        <div class="about-card">
+          <h4>Datos del gym</h4>
+          <dl>
+            <dt>Fundado</dt>
+            <dd>2019 · Buenos Aires</dd>
+            <dt>Superficie</dt>
+            <dd>1.200 m²</dd>
+            <dt>Profesores</dt>
+            <dd>12 certificados</dd>
+            <dt>Horario</dt>
+            <dd>Lunes a viernes 5:30–23:00<br>Sábados 7:00–14:00</dd>
+            <dt>Dirección</dt>
+            <dd>Av. Corrientes 3500, CABA</dd>
+          </dl>
+        </div>
+      </div>
+
+      <!-- Equipo -->
+      <div class="team">
+        <h3 class="team-title">Nuestro equipo</h3>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="team-avatar">MR</div>
+            <h4>Martín Rodríguez</h4>
+            <p>Musculación · Entrenador personal</p>
+          </div>
+          <div class="team-member">
+            <div class="team-avatar">LG</div>
+            <h4>Lucía García</h4>
+            <p>Funcional · CrossTraining</p>
+          </div>
+          <div class="team-member">
+            <div class="team-avatar">DF</div>
+            <h4>Diego Fernández</h4>
+            <p>Boxeo · Kickboxing</p>
+          </div>
+          <div class="team-member">
+            <div class="team-avatar">VP</div>
+            <h4>Valentina Pérez</h4>
+            <p>Yoga · Pilates</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACTO ========== -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <span class="section-label">Contacto</span>
+      <h2 class="section-title">Vení a conocernos</h2>
+      <p class="section-desc">Completá el formulario o escribinos directo. La primera clase es gratis.</p>
+
+      <div class="contact-grid">
+        <form class="contact-form" action="https://formsubmit.co/info@forzagym.com" method="POST">
+          <input type="hidden" name="_subject" value="Nuevo contacto desde la web">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="11 2345-6789">
+            </div>
+            <div class="form-group">
+              <label for="actividad">Actividad que te interesa</label>
+              <select id="actividad" name="actividad">
+                <option value="" disabled selected>Elegí una opción</option>
+                <option value="musculacion">Musculación</option>
+                <option value="funcional">Funcional</option>
+                <option value="boxeo">Boxeo</option>
+                <option value="yoga">Yoga</option>
+                <option value="spinning">Spinning</option>
+                <option value="calistenia">Calistenia</option>
+                <option value="todas">Todas (plan Full)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje <span class="optional">(opcional)</span></label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿Tenés alguna consulta?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent btn-lg form-submit">Enviar consulta →</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-block">
+            <h4>Dirección</h4>
+            <p>Av. Corrientes 3500<br>CABA, Buenos Aires</p>
+          </div>
+          <div class="contact-block">
+            <h4>Teléfono</h4>
+            <a href="tel:+5411234567890">+54 11 2345-6789</a>
+          </div>
+          <div class="contact-block">
+            <h4>Email</h4>
+            <a href="mailto:info@forzagym.com">info@forzagym.com</a>
+          </div>
+          <div class="contact-block">
+            <h4>Horarios</h4>
+            <p>Lun a Vie: 5:30 – 23:00<br>Sábados: 7:00 – 14:00<br>Domingos: cerrado</p>
+          </div>
+          <div class="contact-block">
+            <h4>Redes</h4>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://wa.me/5411234567890" target="_blank" rel="noopener">WhatsApp</a>
+            </div>
+          </div>
+
+          <!-- Mapa embebido -->
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889527!2d-58.41153!3d-34.604601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9e0324a7d1%3A0x5c0d1f15f8e8c!2sAv.%20Corrientes%203500%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1"
+              width="100%" height="200" style="border:0; border-radius: 8px;" allowfullscreen loading="lazy"
+              title="Ubicación de Forza Gym">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Forza Gym</div>
+          <p class="footer-tagline">Tu gimnasio en Buenos Aires. Desde 2019.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Secciones</h5>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contacto</h5>
+          <ul>
+            <li><a href="tel:+5411234567890">+54 11 2345-6789</a></li>
+            <li><a href="mailto:info@forzagym.com">info@forzagym.com</a></li>
+            <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://wa.me/5411234567890" target="_blank">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Forza Gym · Proyecto académico</span>
+        <span><a href="#inicio">Volver arriba ↑</a></span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
