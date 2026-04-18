@@ -1,4 +1,4 @@
-#  README - Proyecto Web Forza Gym
+# README - Proyecto Web Forza Gym
 
 ##  Descripción del Proyecto
 
