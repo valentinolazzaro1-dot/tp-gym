@@ -12,7 +12,7 @@ Este proyecto consiste en el desarrollo de una página web para **Forza Gym**, u
 
 La página está diseñada utilizando **HTML y CSS**, priorizando un diseño moderno, limpio y fácil de navegar.
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Crear una interfaz visual atractiva y profesional
 - Practicar maquetación web con HTML
@@ -20,21 +20,21 @@ La página está diseñada utilizando **HTML y CSS**, priorizando un diseño mod
 - Implementar un formulario de contacto funcional
 - Desarrollar un menú hamburguesa para mobile usando solo CSS
 
-## 🧩 Funcionalidades
+##  Funcionalidades
 
-- 🏠 Hero principal con llamado a acción y estadísticas del gym
-- ⚡ Sección de actividades con cards descriptivas
-- 📅 Tabla de horarios con colores diferenciados por actividad
-- 💰 Tres planes con precios y detalle de beneficios
-- 👥 Sección "Nosotros" con historia, ficha técnica y equipo de entrenadores
-- 📬 Formulario de contacto funcional (envía email real vía FormSubmit)
-- 🗺️ Mapa de Google Maps embebido con la ubicación
-- 📱 Menú hamburguesa responsive (solo CSS, sin JavaScript)
-- 🔗 Links directos a WhatsApp, Instagram, teléfono y email
-- ⬆️ Botón "Volver arriba" en el footer
-- ✨ Animaciones de entrada en el hero (CSS puro)
+-  Hero principal con llamado a acción y estadísticas del gym
+-  Sección de actividades con cards descriptivas
+-  Tabla de horarios con colores diferenciados por actividad
+-  Tres planes con precios y detalle de beneficios
+-  Sección "Nosotros" con historia, ficha técnica y equipo de entrenadores
+-  Formulario de contacto funcional (envía email real vía FormSubmit)
+-  Mapa de Google Maps embebido con la ubicación
+-  Menú hamburguesa responsive (solo CSS, sin JavaScript)
+-  Links directos a WhatsApp, Instagram, teléfono y email
+-  Botón "Volver arriba" en el footer
+-  Animaciones de entrada en el hero (CSS puro)
 
-## 🛠️ Tecnologías utilizadas
+##  Tecnologías utilizadas
 
 - HTML5
 - CSS3
@@ -55,7 +55,7 @@ No se utilizó JavaScript. Todas las interacciones (menú mobile, animaciones, s
 ┗ 📄 .gitignore
 ```
 
-## 🎨 Diseño
+##  Diseño
 
 El diseño de la página se basa en:
 
@@ -72,6 +72,4 @@ El diseño de la página se basa en:
 2. Abrir el archivo `index.html` en el navegador
 3. Navegar por las distintas secciones del sitio usando el menú superior
 
-##  Autor
 
-Proyecto desarrollado por **Valentino Lazzaro** como parte de la materia de Diseño y Desarrollo Web.
