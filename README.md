@@ -1,6 +1,6 @@
-# 🏋️ README - Proyecto Web Forza Gym
+#  README - Proyecto Web Forza Gym
 
-## 🌍 Descripción del Proyecto
+##  Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo de una página web para **Forza Gym**, un gimnasio ubicado en Buenos Aires. El objetivo principal es mostrar toda la información del gimnasio de forma clara y funcional, incluyendo:
 
@@ -66,12 +66,12 @@ El diseño de la página se basa en:
 - Distribución responsive adaptable a celulares, tablets y desktop
 - Hero de ancho completo con fondo oscuro y gradientes sutiles
 
-## 🚀 Cómo ver el proyecto
+##  Cómo ver el proyecto
 
 1. Descargar o clonar el repositorio
 2. Abrir el archivo `index.html` en el navegador
 3. Navegar por las distintas secciones del sitio usando el menú superior
 
-## 👨‍💻 Autor
+##  Autor
 
 Proyecto desarrollado por **Valentino Lazzaro** como parte de la materia de Diseño y Desarrollo Web.
